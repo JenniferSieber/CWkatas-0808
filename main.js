@@ -32,7 +32,7 @@ console.log(findAverage([85,50,11]));
 // https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
 const countSheeps = arr => arr.filter(Boolean).length;
 
-console.log(countSheeps([true, true, true, false, true, true, true, true, true, false, true, false, true, false, false, true, true, true, true, true, false, false, true, true]))
+console.log(countSheeps([true, true, true, false, true, true, true, true, true, false, true, false, true, false, false, true, true, true, true, true, false, false, true, true]));
 
 // KATA 5 7kyu
 // https://www.codewars.com/kata/57fe864854685b1c420002e0
