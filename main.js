@@ -9,9 +9,8 @@ console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
 // https://www.codewars.com/kata/539ee3b6757843632d00026b/train/javascript
 // filter and regex /A-Z/g return index
 const capitals = word => {
-	let indices = [];
-  let arr = word.split('')
-  console.log(arr)
+  let indices = [];
+  let arr = word.split('');
   arr.forEach((el, i) => {
     if (el.match(/[A-Z]/g)) {
       indices.push(i);
@@ -22,14 +21,13 @@ const capitals = word => {
 
 console.log(capitals('CodEWaRs'));
 
-
 // KATA 3 8kyu
 // https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/train/javascript
 const findAverage = arr => arr.length == 0 ? 0 : arr.reduce((ttl, cv) => ttl + cv, 0) / arr.length;
 
-
 console.log(findAverage([1,2,3,4]));
 console.log(findAverage([85,50,11]));
+
 // KATA 4 8kyu
 // https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
 const countSheeps = arr => arr.filter(Boolean).length;
